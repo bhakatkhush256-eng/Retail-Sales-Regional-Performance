@@ -1,8 +1,5 @@
 # Bazaar Basket Retail Sales & Regional Performance Analysis 2025
 
-
----
-
 ## 1. Project Background
 
 Bazaar Basket is a fictional multi-category retail chain selling in four regions of Pakistan: Punjab, Sindh, KPK and Balochistan. Branches enter orders into a CRM in their own way, so the 2025 sales export is messy.
@@ -53,7 +50,7 @@ The same structure in DBML (paste it into [dbdiagram.io](https://dbdiagram.io) t
 
 Of 400 raw rows, **349 are valid**, 20 are duplicate orders and 31 are invalid because the date, quantity or price could not be read. No row was deleted. Every excluded row carries a reason.
 
-
+![image ait](https://github.com/bhakatkhush256-eng/Retail-Sales-Regional-Performance/blob/d2ddd6f93a53eb709cd376e01f6c69ce568957ae/Screenshot%202026-10-17%20111008.png)
 
 | Issue | Scale | Fix |
 |---|---|---|
@@ -87,11 +84,9 @@ All figures use valid rows only and come from the Analysis sheet.
 
 ### 5.2 Revenue is volatile, and the year ended flat
 
-![Monthly net revenue](images/01_monthly_net_revenue.png)
 
 **I found** that net revenue jumped 290% from January (PKR 0.34M) to February (PKR 1.32M), then fell 76% by May (PKR 0.31M). December rebounded 61% month over month to PKR 1.01M. February and March together hold 27.6% of annual revenue. First half (PKR 4.34M) and second half (PKR 4.35M) differ by only 0.4%. **This means** there is no growth trend in 2025, only swings, and stock and promotions need to be timed around the peaks and the May low.
 
-![Monthly net revenue by region](images/02_monthly_by_region.png)
 
 ### 5.3 Electronics produce half the revenue
 
